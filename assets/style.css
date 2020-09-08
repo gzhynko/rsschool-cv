@@ -1,12 +1,17 @@
 body {
+  margin: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 p,
-span {
+span,
+h2,
+li,
+article {
   font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
 
 p {
